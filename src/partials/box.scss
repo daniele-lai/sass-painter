@@ -1,0 +1,41 @@
+section {
+  color: $blackText;
+
+  h2 {
+    font-size: $titleSize;
+    margin-bottom: 9px;
+  }
+  p {
+    font-size: $textSize;
+    margin-bottom: 18px;
+  }
+}
+
+.first {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.box {
+  padding-bottom: 100px;
+
+  & .container {
+    display: flex;
+    align-items: center;
+  }
+  & .container.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .text {
+    margin: 15px;
+  }
+
+  a {
+    color: $primaryBlue;
+    text-decoration: none;
+    &:hover {
+      color: $secondaryBlue;
+    }
+  }
+}

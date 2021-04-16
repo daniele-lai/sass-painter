@@ -80,3 +80,41 @@
 .buttons .btn.blue:hover a {
   color: #fff;
 }
+
+section {
+  color: #2c2c2c;
+}
+section h2 {
+  font-size: 36px;
+  margin-bottom: 9px;
+}
+section p {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.first {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.box {
+  padding-bottom: 100px;
+}
+.box .container {
+  display: flex;
+  align-items: center;
+}
+.box .container.reverse {
+  flex-direction: row-reverse;
+}
+.box .text {
+  margin: 15px;
+}
+.box a {
+  color: #1473E6;
+  text-decoration: none;
+}
+.box a:hover {
+  color: #0d66d0;
+}
