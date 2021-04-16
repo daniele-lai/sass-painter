@@ -2,4 +2,22 @@
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
   background-size: cover;
   min-height: 700px;
+  color: #fff;
+  position: relative;
+
+  .hero_text {
+    position: absolute;
+    top: 39%;
+    left: 18%;
+    
+    h1 {
+      font-weight: $font700;
+      font-size: 44px;
+      margin-bottom: 15px;
+    }
+    span {
+      font-size: $mediumSize;
+    }
+  }
+
 }

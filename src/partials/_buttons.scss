@@ -1,0 +1,48 @@
+.buttons {
+  display: flex;
+  margin-top: 22px;
+
+  .btn {
+    min-height: 48px;
+    border: 2px solid;
+    border-radius: 27px;
+    margin: 10px;
+    padding: 8px 36px;
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+      font-size: $mediumSize;
+      font-weight: $font700;
+    }
+
+    &.white {
+      background-color: transparent;
+      border-color: #fff;
+      a {
+        color: #fff;
+      }
+    }
+    &.white:hover {
+      background-color: #fff;
+      border-color: #fff;
+      a {
+        color: #000;
+      }
+    }
+    &.blue {
+      background-color: $primaryBlue;
+      border-color: $primaryBlue;
+      a {
+        color: #fff;
+      }
+    }
+    &.blue:hover {
+      background-color: $secondaryBlue;
+      border-color: $secondaryBlue;
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

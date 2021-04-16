@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .container {
@@ -17,4 +18,65 @@
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
   background-size: cover;
   min-height: 700px;
+  color: #fff;
+  position: relative;
+}
+.hero .hero_text {
+  position: absolute;
+  top: 39%;
+  left: 18%;
+}
+.hero .hero_text h1 {
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+.hero .hero_text span {
+  font-size: 22px;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 22px;
+}
+.buttons .btn {
+  min-height: 48px;
+  border: 2px solid;
+  border-radius: 27px;
+  margin: 10px;
+  padding: 8px 36px;
+  cursor: pointer;
+}
+.buttons .btn a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+}
+.buttons .btn.white {
+  background-color: transparent;
+  border-color: #fff;
+}
+.buttons .btn.white a {
+  color: #fff;
+}
+.buttons .btn.white:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
+.buttons .btn.white:hover a {
+  color: #000;
+}
+.buttons .btn.blue {
+  background-color: #1473E6;
+  border-color: #1473E6;
+}
+.buttons .btn.blue a {
+  color: #fff;
+}
+.buttons .btn.blue:hover {
+  background-color: #0d66d0;
+  border-color: #0d66d0;
+}
+.buttons .btn.blue:hover a {
+  color: #fff;
 }
