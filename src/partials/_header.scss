@@ -1,0 +1,41 @@
+header {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+  & a {
+    text-decoration: none;
+    color: $blackText;
+    font-size: 14px;
+  }
+}
+
+.main_menu ul li a::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+  font-weight: 700;
+  color: $blackText;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  img {
+    height: 24px;
+  }
+  span {
+    font-size: $textSize;
+    font-weight: $font700;
+    color: #fa0f00;
+    margin-left: 7px;
+  }
+}
